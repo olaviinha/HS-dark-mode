@@ -1,6 +1,6 @@
 # HS Dark mode
 
-Chrome Extension that applies two style attributes to [hs.fi](https://hs.fi) to turn it dark and remove ads. Contributions welcome.
+Chrome Extension that applies two style attributes to [hs.fi](https://hs.fi) to turn it dark. Also removes ads, just because I was lazy to adjust their themes separately. Contributions welcome.
 
 ## Howto
 
