@@ -12,6 +12,6 @@ Minimal Chrome Extension that applies a couple of simple CSS style attributes to
 
 ---
 
-![image](https://user-images.githubusercontent.com/50331907/149678547-88a719e1-6e70-4479-9066-da8c347bf6b4.png)
+![image](https://user-images.githubusercontent.com/50331907/149681962-0f4b0c92-f1f5-4340-b8c8-eaf416fa1ecd.png)
 
 
