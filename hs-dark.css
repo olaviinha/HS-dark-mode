@@ -3,7 +3,11 @@ body.dark {
 	filter: invert(1) hue-rotate(180deg) brightness(.75) saturate(1.4);
 }
 
-/* Toggle switch on large screens */
+/* Toggle switch */
+@media(max-width: 1139px) {
+	.bg-header-main .md\:ml-32 { margin-left: 24px; }
+	.bg-header-main .mr-24 { margin-right: 18px; }
+}
 @media(min-width: 1140px) {
 	.dark-switch {
 		position: absolute;
@@ -18,10 +22,6 @@ body.dark {
 /* Swap background colors */
 .dark .bg-main, .dark .bg-negative { background: rgba(250,250,250,1); }
 .dark .bg-positive { background: rgba(223,224,227,1); }
-
-/* Adjust header margins to fit toggle switch */
-.bg-header-main .md\:ml-32 { margin-left: 24px; }
-.bg-header-main .mr-24 { margin-right: 18px; }
 
 /* Revert inversions of the following elements */
 .dark img,
