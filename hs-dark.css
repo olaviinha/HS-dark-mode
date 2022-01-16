@@ -20,12 +20,8 @@ body.dark {
 .dark .bg-positive { background: rgba(223,224,227,1); }
 
 /* Adjust header margins to fit toggle switch */
-.bg-header-main .md\:ml-32 {
-	margin-left: 24px;
-}
-.bg-header-main .mr-24 {
-	margin-right: 18px;
-}
+.bg-header-main .md\:ml-32 { margin-left: 24px; }
+.bg-header-main .mr-24 { margin-right: 18px; }
 
 /* Revert inversions of the following elements */
 .dark img,
