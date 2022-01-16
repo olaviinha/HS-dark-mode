@@ -1,0 +1,11 @@
+body {
+	filter: invert(1) hue-rotate(180deg) brightness(.75) saturate(1.4);
+}
+
+img, video, .bg-header-main {
+	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.6)
+}
+
+iframe, .article-ad-placeholder, [data-ad-type], [data-ad-position] {
+	display: none;
+}
