@@ -12,4 +12,5 @@ Chrome Extension that applies a couple of CSS style attributes to [hs.fi](https:
 
 ---
 
-![image](https://user-images.githubusercontent.com/50331907/149663801-93054036-8414-47c1-b225-84ce4846f740.png)
+![image](https://user-images.githubusercontent.com/50331907/149673314-686ae4d7-482f-42cd-820c-5d444f36c3d8.png)
+
