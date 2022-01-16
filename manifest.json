@@ -1,13 +1,13 @@
 {
     "name": "HS Dark mode",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Fewliner to turn HS dark",
     "author": "O. Inha",
     "permissions": ["tabs", "activeTab", "*://*.hs.fi/*"],
     "content_scripts": [
         {
           "matches": ["*://*.hs.fi/*"],
-          "js": ["content_script.js"]
+          "css": ["hs-dark.css"]
         }
     ],
     "browser_action": {},
