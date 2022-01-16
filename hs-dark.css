@@ -1,4 +1,4 @@
-/* Invert entire site */
+/* Invert & hue-rotate entire site */
 body.dark {
 	filter: invert(1) hue-rotate(180deg) brightness(.75) saturate(1.4);
 }
