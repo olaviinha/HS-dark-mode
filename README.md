@@ -1,6 +1,6 @@
 # HS Dark mode
 
-Chrome Extension that applies a couple of CSS style attributes to [hs.fi](https://hs.fi) to turn it dark. Also removes ads from articles and main feeds, just because I was too lazy to adjust their color schemes separately. Contributions welcome.
+Minimal Chrome Extension that applies a couple of simple CSS style attributes to [hs.fi](https://hs.fi) to turn it dark, and a theme toggle switch to upper right corner. Also removes ads from articles and main feeds, just because I was too lazy to adjust their color schemes separately. Contributions welcome.
 
 ## Howto
 
@@ -12,5 +12,6 @@ Chrome Extension that applies a couple of CSS style attributes to [hs.fi](https:
 
 ---
 
-![image](https://user-images.githubusercontent.com/50331907/149673314-686ae4d7-482f-42cd-820c-5d444f36c3d8.png)
+![image](https://user-images.githubusercontent.com/50331907/149678547-88a719e1-6e70-4479-9066-da8c347bf6b4.png)
+
 
