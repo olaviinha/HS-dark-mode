@@ -16,5 +16,5 @@ Minimal Chrome Extension that applies a couple of simple CSS style attributes to
 _Extension in action_
 
 ![image](https://user-images.githubusercontent.com/50331907/149682832-e4378b1d-f98d-4be1-a03c-3acd1dcb95e0.png)
-_Removes ads also_
+_Removes ads as a semi-accidental bonus feature!_
 
