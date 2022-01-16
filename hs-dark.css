@@ -1,17 +1,26 @@
-body {
+body.dark {
 	filter: invert(1) hue-rotate(180deg) brightness(.75) saturate(1.4);
+
 }
 
-img,
-video,
-.ReactModal__Overlay,
-.bg-header-main {
+.bg-header-main .md\:ml-32 {
+	margin-left: 24px;
+}
+
+.bg-header-main .mr-24 {
+	margin-right: 18px;
+}
+
+.dark img,
+.dark video,
+.dark .ReactModal__Overlay,
+.dark .bg-header-main {
 	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.6)
 }
 
-iframe,
-.article-ad-placeholder,
-[data-ad-type],
-[data-ad-position] {
+.dark iframe,
+.dark .article-ad-placeholder,
+.dark [data-ad-type],
+.dark [data-ad-position] {
 	display: none;
 }
