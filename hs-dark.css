@@ -5,8 +5,8 @@ body.dark {
 
 /* Toggle switch */
 @media(max-width: 1139px) {
-	.bg-header-main .md\:ml-32 { margin-left: 24px; }
-	.bg-header-main .mr-24 { margin-right: 18px; }
+	.dark .bg-header-main .md\:ml-32 { margin-left: 24px; }
+	.dark .bg-header-main .mr-24 { margin-right: 18px; }
 }
 @media(min-width: 1140px) {
 	.dark-switch {
