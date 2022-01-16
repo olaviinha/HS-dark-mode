@@ -13,12 +13,14 @@ function changeTheme() {
 	}
 }
 
-// Enable dark theme by default
+// Enable dark theme & add switch
 var enable_theme = setInterval(function(){
-	if(!user_setting && document.querySelector('body') && !theme_added) {
+	// Enable theme
+	if(document.querySelector('body') && !user_setting && !theme_added) {
 		document.querySelector('body').classList.add('dark');
 		theme_added = true;
 	}
+	// Add switch
 	if (document.readyState === "complete" || document.readyState === "interactive") {
 		document.querySelector(switch_location).insertAdjacentHTML("beforeend", dark_mode_switch);
 		document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
