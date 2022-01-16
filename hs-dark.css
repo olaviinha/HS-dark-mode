@@ -3,6 +3,13 @@ body.dark {
 
 }
 
+@media(min-width: 1140px) {
+	.dark-switch {
+		position: absolute;
+		right: 20px;
+	}
+}
+
 .bg-header-main .md\:ml-32 {
 	margin-left: 24px;
 }
