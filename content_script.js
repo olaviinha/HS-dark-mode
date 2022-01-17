@@ -6,7 +6,7 @@ var user_setting = window.localStorage.getItem('theme');
 function changeTheme() {
 	var b = document.querySelector('body');
 	b.classList.toggle('dark');
-	// Remember user's theme setting
+	// Remember theme
 	if(b.classList.contains('dark')) {
 		window.localStorage.removeItem('theme');
 	} else {
@@ -14,7 +14,7 @@ function changeTheme() {
 	}
 }
 
-// Enable dark theme
+// Enable dark theme on pageload
 if(!user_setting){
 	var enable_theme = setInterval(function(){
 		if(document.querySelector('body')) {
@@ -24,7 +24,7 @@ if(!user_setting){
 	}, 20);
 }
 
-// Add toggle switch
+// Inject toggle switch when page loaded
 document.onreadystatechange = function () {
 	if (document.readyState === 'complete' || document.readyState === 'interactive') {
 		document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
