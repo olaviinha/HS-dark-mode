@@ -45,16 +45,17 @@ body.dark {
 /* Toggle switch icons */
 #dark-mode:checked+.switch:before {
 	background-image: none;
-	content: '\263E';
+	content: '\263C';
+	color: #fff;
 	top: -1px;
 	left: 7px;
-	color: #fff;
+	
 }
 
 #dark-mode+.switch:before {
 	background-image: none;
-	content: '\263C';
+	content: '\263E';
+	color: #000;
 	top: -1px;
 	right: 13px;
-	color: #000;
 }
