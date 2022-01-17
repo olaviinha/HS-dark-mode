@@ -21,7 +21,7 @@ body.dark {
 }
 
 /* Swap background colors */
-.dark .bg-main, .dark .bg-negative { background: rgba(250,250,250,1); }
+.dark .bg-main { background: rgba(250,250,250,1); }
 .dark .bg-positive { background: rgba(223,224,227,1); }
 
 /* Revert inversions of the following elements */
