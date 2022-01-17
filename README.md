@@ -12,9 +12,9 @@
 
 ---
 
-![image](https://user-images.githubusercontent.com/50331907/149748767-cbf9eef3-ee4a-45af-82a2-232312621b68.png)
+![image](https://user-images.githubusercontent.com/50331907/149751656-7bc021ea-9831-4a66-ac87-1be3d6a73904.png)
 _Extension in action_
 
 ![image](https://user-images.githubusercontent.com/50331907/149748644-3bc8de89-ee9a-4593-b3d9-27d6f05987a2.png)
-_Removes ads because I'm lazy!_
+_Removes ads because I'm lazy! I'm too lazy to even update this screenshot with correct button icons!_
 
