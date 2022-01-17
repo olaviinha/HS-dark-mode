@@ -11,7 +11,7 @@ body.dark {
 .dark img,
 .dark video,
 .dark .ReactModal__Overlay,
-.dark .reaktor-player-container-wrapper,
+.dark .r-poster-image,
 .dark .bg-header-main {
 	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.65);
 }
