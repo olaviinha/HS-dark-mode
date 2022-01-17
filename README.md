@@ -12,9 +12,9 @@
 
 ---
 
-![image](https://user-images.githubusercontent.com/50331907/149681962-0f4b0c92-f1f5-4340-b8c8-eaf416fa1ecd.png)
+![image](https://user-images.githubusercontent.com/50331907/149748767-cbf9eef3-ee4a-45af-82a2-232312621b68.png)
 _Extension in action_
 
-![image](https://user-images.githubusercontent.com/50331907/149682832-e4378b1d-f98d-4be1-a03c-3acd1dcb95e0.png)
+![image](https://user-images.githubusercontent.com/50331907/149748644-3bc8de89-ee9a-4593-b3d9-27d6f05987a2.png)
 _Removes ads because I'm lazy!_
 
