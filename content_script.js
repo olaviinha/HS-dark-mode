@@ -28,7 +28,6 @@ var enable_theme = setInterval(function(){
 		document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
 		document.querySelector('#dark-mode').checked=!user_setting;
 		document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
-		b.style.transition='.6s filter ease-in-out';
 		clearInterval(enable_theme);
 	}
 }, 20);
