@@ -17,9 +17,8 @@ function changeTheme() {
 
 // Enable dark theme & add switch
 var enable_theme = setInterval(function(){
-	var b = document.querySelector('body');
 	// Enable theme
-	if(b && !user_setting && !theme_added) {
+	if(document.querySelector('body') && !user_setting && !theme_added) {
 		document.querySelector('body').classList.add('dark');
 		theme_added = true;
 	}
