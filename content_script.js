@@ -26,10 +26,10 @@ if(!user_setting){
 
 // Add toggle switch
 document.onreadystatechange = function () {
-  if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
-	document.querySelector('#dark-mode').checked=!user_setting;
-	document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
-  }
+	if (document.readyState === 'complete' || document.readyState === 'interactive') {
+		document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
+		document.querySelector('#dark-mode').checked=!user_setting;
+		document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
+	}
 }
 
