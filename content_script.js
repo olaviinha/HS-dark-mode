@@ -30,3 +30,8 @@ var enable_theme = setInterval(function(){
 		clearInterval(enable_theme);
 	}
 }, 20);
+
+// Failsafe
+setTimeout(function(){
+	if(enable_theme) clearInterval(enable_theme);
+}, 5000);
