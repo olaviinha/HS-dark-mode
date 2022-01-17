@@ -7,7 +7,7 @@ body.dark {
 .dark .bg-main { background: rgba(250,250,250,1); }
 .dark .bg-positive { background: rgba(223,224,227,1); }
 
-/* Revert inversions of the following elements */
+/* Revert inversion for the following elements */
 .dark img,
 .dark video,
 .dark .ReactModal__Overlay,
@@ -26,11 +26,13 @@ body.dark {
 	display: none;
 }
 
-/* Inject toggle switch */
+/* Squeeze header to make room for toggle switch */
 @media(max-width: 1139px) {
 	.bg-header-main .md\:ml-32 { margin-left: 24px; }
 	.bg-header-main .mr-24 { margin-right: 18px; }
 }
+
+/* Float toggle switch to right of viewport on large screens (outside site container) */
 @media(min-width: 1140px) {
 	.dark-switch {
 		position: absolute;
