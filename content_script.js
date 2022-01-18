@@ -1,6 +1,6 @@
 var switch_location = '.bg-header-main .justify-between > .flex.items-center:last-child';
 var dark_mode_switch = '<label class="dark-switch flex justify-between items-center cursor-pointer md:inline-flex md:justify-start"><input type="checkbox" class="sr-only switch__input" id="dark-mode" checked=""><div onclick="" class="switch theme-switch relative inline-block w-50 h-24 rounded-full md:ml-16"><div class="switch__knob absolute h-24 w-24 rounded-full"></div></div></label>';
-var dark_theme_off = window.localStorage.getItem('theme');
+var dark_mode_off = window.localStorage.getItem('theme');
 var el = 'html';
 
 // Toggle theme
@@ -16,7 +16,7 @@ function changeTheme() {
 }
 
 // Enable dark theme on pageload
-if(!dark_theme_off){
+if(!dark_mode_off){
 	var enable_theme = setInterval(function(){
 		if(document.querySelector(el)) {
 			document.querySelector(el).classList.add('dark');
@@ -29,7 +29,7 @@ if(!dark_theme_off){
 document.onreadystatechange = function () {
 	if (document.readyState === 'complete' || document.readyState === 'interactive') {
 		document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
-		document.querySelector('#dark-mode').checked=!dark_theme_off;
+		document.querySelector('#dark-mode').checked=!dark_mode_off;
 		document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
 	}
 }
