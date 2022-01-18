@@ -1,5 +1,5 @@
 /* Invert & hue-rotate entire site */
-body.dark {
+html.dark {
 	filter: invert(1) hue-rotate(180deg) brightness(.75) saturate(1.4);
 }
 
@@ -10,7 +10,7 @@ body.dark {
 /* Revert inversion for the following elements */
 .dark img,
 .dark video,
-.dark .ReactModal__Overlay,
+.dark .ReactModal__Overlay:not(.ReactModal__Overlay--before-close),
 .dark .r-controls-layout > div,
 .dark .bg-header-main {
 	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.65);
