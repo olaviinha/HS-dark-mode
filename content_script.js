@@ -15,15 +15,7 @@ function changeTheme() {
 }
 
 // Enable dark theme on pageload
-if(!dark_mode_off){
-	if(html) html.classList.add('dark');
-	var enable_theme = setInterval(function(){
-		if(html) {
-			html.classList.add('dark');
-			clearInterval(enable_theme);
-		}
-	}, 10);
-}
+if(!dark_mode_off) html.classList.add('dark');
 
 // Inject theme toggle switch once page loaded
 document.onreadystatechange = function () {
