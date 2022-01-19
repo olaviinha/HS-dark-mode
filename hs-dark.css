@@ -26,13 +26,11 @@ html.dark {
 	display: none;
 }
 
-/* Squeeze header to make room for toggle switch */
+/* The toggle switch */
 @media(max-width: 1139px) {
 	.bg-header-main .md\:ml-32 { margin-left: 24px; }
 	.bg-header-main .mr-24 { margin-right: 18px; }
 }
-
-/* Float toggle switch to right of viewport on large screens (outside site container) */
 @media(min-width: 1140px) {
 	.dark-switch {
 		position: absolute;
@@ -44,8 +42,6 @@ html.dark {
 		opacity: 1;
 	}
 }
-
-/* Toggle switch icons */
 #dark-mode:checked+.switch:before {
 	background-image: none;
 	content: '\263C';
