@@ -1,3 +1,5 @@
+/* -- THEME --- */
+
 /* Invert & hue-rotate entire site */
 html.dark {
 	filter: invert(1) hue-rotate(180deg) brightness(.75) saturate(1.4);
@@ -26,11 +28,16 @@ html.dark {
 	display: none;
 }
 
-/* The toggle switch */
+/* -- //THEME --- */
+
+/* -- The rest is about the toggle switch -- */
+
+/* Squeeze header to make room for switch */
 @media(max-width: 1139px) {
 	.bg-header-main .md\:ml-32 { margin-left: 24px; }
 	.bg-header-main .mr-24 { margin-right: 18px; }
 }
+/* Pop out of container and right-align on large screens */
 @media(min-width: 1140px) {
 	.dark-switch {
 		position: absolute;
@@ -42,6 +49,7 @@ html.dark {
 		opacity: 1;
 	}
 }
+/* Icons */
 #dark-mode:checked+.switch:before {
 	background-image: none;
 	content: '\263C';
