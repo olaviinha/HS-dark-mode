@@ -17,10 +17,6 @@ html.dark {
 	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.65);
 }
 
-.dark iframe, .dark iframe body, .dark iframe .live-posts-wrapper {
-	background: transparent !important;
-}
-
 /* Remove ads b/c they'd require some additional adjustments */
 .dark .article-ad-placeholder,
 .dark .article-ad-separator,
