@@ -25,10 +25,8 @@ document.onreadystatechange = function () {
 		document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
 
 	}
-	// Additional styles for iframes ("HS Live" articles)
+	// Additional styles for iframes ("HS Live" articles etc.)
 	if (window.self !== window.top) {
-		console.log('Before', html.classList);
 		html.classList.add('dark-iframe');
-		console.log('After', html.classList);
 	}
 }
