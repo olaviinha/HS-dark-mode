@@ -1,6 +1,6 @@
 {
     "name": "HS.fi Dark mode",
-    "version": "1.5.5",
+    "version": "1.5.6",
     "description": "Dark theme for HS.fi",
     "author": "O. Inha",
     "permissions": ["tabs", "activeTab", "*://*.hs.fi/*"],
@@ -9,7 +9,8 @@
           "matches": ["*://*.hs.fi/*"],
           "css": ["hs-dark.css"],
           "js": ["content_script.js"],
-          "run_at" : "document_start"
+          "run_at" : "document_start",
+          "all_frames": true
         }
     ],
     "browser_action": {},
