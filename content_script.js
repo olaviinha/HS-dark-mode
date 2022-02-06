@@ -20,9 +20,12 @@ if(!dark_mode_off && window.self === window.top) html.classList.add('dark');
 document.onreadystatechange = function () {
 	// Inject theme toggle switch once page loaded
 	if (window.self === window.top && (document.readyState === 'complete' || document.readyState === 'interactive')) {
-		document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
-		document.querySelector('#dark-mode').checked=!dark_mode_off;
-		document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
+		let switch_location_el = document.querySelector(switch_location);
+		if(switch_location_el) {
+			document.querySelector(switch_location).insertAdjacentHTML('beforeend', dark_mode_switch);
+			document.querySelector('#dark-mode').checked=!dark_mode_off;
+			document.querySelector('.theme-switch').onclick = function() { changeTheme(); }
+		}
 
 	}
 	// Additional styles for iframes ("HS Live" articles etc.)
