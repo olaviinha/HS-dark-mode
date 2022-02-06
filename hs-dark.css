@@ -27,7 +27,7 @@ html.dark-iframe .live-posts-wrapper {
 .dark .ReactModal__Overlay:not(.ReactModal__Overlay--before-close),
 .dark .r-controls-layout > div, .dark-iframe .r-controls-layout > div,
 .dark .bg-header-main, .dark-iframe .bg-header-main {
-	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.65);
+	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.65) !important;
 }
 
 /* Remove ads b/c they'd require some additional adjustments */
