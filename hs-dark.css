@@ -23,6 +23,7 @@ html.dark-iframe .live-posts-wrapper {
 .dark img, .dark-iframe img,
 .dark video, .dark-iframe video,
 .dark iframe, .dark-iframe iframe,
+.dark-iframe .image-slider img,
 .dark .ReactModal__Overlay:not(.ReactModal__Overlay--before-close),
 .dark .r-controls-layout > div, .dark-iframe .r-controls-layout > div,
 .dark .bg-header-main, .dark-iframe .bg-header-main {
