@@ -1,6 +1,6 @@
 {
     "name": "HS.fi Dark mode",
-    "version": "1.5.7",
+    "version": "1.5.8",
     "description": "Dark theme for HS.fi",
     "author": "O. Inha",
     "permissions": ["tabs", "activeTab", "*://*.hs.fi/*"],
