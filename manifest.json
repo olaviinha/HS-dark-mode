@@ -3,7 +3,7 @@
     "version": "1.5.8",
     "description": "Dark theme for HS.fi",
     "author": "O. Inha",
-    "permissions": ["tabs", "activeTab", "*://*.hs.fi/*"],
+    "permissions": ["tabs", "activeTab"],
     "content_scripts": [
         {
           "matches": ["*://*.hs.fi/*"],
@@ -13,6 +13,9 @@
           "all_frames": true
         }
     ],
-    "browser_action": {},
-    "manifest_version": 2
+    "action": {},
+    "host_permissions": [
+      "*://*.hs.fi/*"
+    ],
+    "manifest_version": 3
 }
