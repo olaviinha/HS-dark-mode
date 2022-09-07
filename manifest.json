@@ -9,7 +9,7 @@
           "matches": ["*://*.hs.fi/*"],
           "css": ["hs-dark.css"],
           "js": ["content_script.js"],
-          "run_at" : "document_start",
+          "run_at" : "document_end",
           "all_frames": true
         }
     ],
