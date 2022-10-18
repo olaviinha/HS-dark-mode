@@ -1,5 +1,13 @@
 # HS.fi Dark theme
 
+### 2022-10-18: As of today, [HS has introduced their own dark theme](https://www.hs.fi/info/art-2000009140129.html), and this extension is thus deprecated.</big>
+
+Use native dark theme, found in the menu:
+
+<img width="263" alt="image" src="https://user-images.githubusercontent.com/50331907/196399669-15c1357c-2958-4459-b7c9-ca8f63eb459e.png">
+
+---
+
 **MVP** Chrome Extension that applies a couple of simple CSS style attributes to [hs.fi](https://hs.fi) to turn it dark, and a theme toggle switch to upper right corner. Also removes ads from articles and main feeds, just because I was too lazy to adjust their color schemes separately. Contributions welcome.
 
 ## Howto
