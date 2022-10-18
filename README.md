@@ -2,9 +2,9 @@
 
 ### 2022-10-18: As of today, [HS has introduced their own dark theme](https://www.hs.fi/info/art-2000009140129.html), and this extension is thus deprecated.</big>
 
-Use native dark theme, found in the menu:
+This extension provides a dark theme with slightly less contrast and thus softer feel, and is still fully functional as long as you have _light theme_ activated in the website's own menu. 
 
-<img width="263" alt="image" src="https://user-images.githubusercontent.com/50331907/196399669-15c1357c-2958-4459-b7c9-ca8f63eb459e.png">
+![image](https://user-images.githubusercontent.com/50331907/196402823-d8e1d0b9-0547-4799-ae61-fad8af1b52fa.png)
 
 ---
 
