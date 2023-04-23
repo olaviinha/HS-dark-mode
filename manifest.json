@@ -1,6 +1,6 @@
 {
     "name": "HS.fi Dark theme",
-    "version": "1.5.9",
+    "version": "1.6.0",
     "description": "Dark theme for HS.fi",
     "author": "O. Inha",
     "permissions": ["tabs", "activeTab"],
