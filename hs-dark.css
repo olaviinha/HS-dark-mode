@@ -9,11 +9,12 @@ html.dark-iframe {
 }
 
 /* Remove background from iframes */
-html.dark-iframe body,
+/* html.dark-iframe body,
+html.dark-iframe body > div,
 html.dark-iframe .live-posts.embedded,
 html.dark-iframe .live-posts-wrapper {
-	background: transparent;
-}
+	background: transparent !important;
+} */
 
 /* Swap background colors */
 .dark .bg-main { background: rgba(250,250,250,1); }
@@ -26,8 +27,14 @@ html.dark-iframe .live-posts-wrapper {
 .dark-iframe .image-slider img,
 .dark .ReactModal__Overlay:not(.ReactModal__Overlay--before-close),
 .dark .r-controls-layout > div, .dark-iframe .r-controls-layout > div,
-.dark .bg-header-main, .dark-iframe .bg-header-main {
+.dark .bg-header-main, .dark-iframe .bg-header-main,
+.dark .header__background, .dark-iframe .header__background {
 	filter: invert(1) hue-rotate(180deg) brightness(1) saturate(.65) !important;
+}
+
+/* Make dark iframes look slightly nicer */
+.dark iframe {
+	outline: 15px solid #000;
 }
 
 /* Remove ads b/c they'd require some additional adjustments */
